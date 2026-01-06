@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8">
+  <meta name="viewport" content="width=device‑width, initial‑scale=1.0">
+  <title>Helix Best Chin Chin</title>
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box‑sizing: border-box;
+      padding: 0;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #333;
+    }
+
+    header {
+      background: #f4c300; 
+      padding: 30px;
+      text-align: center;
+      color: #4b0082;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    nav {
+      background: #4b0082;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 15px 0;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1rem;
+      padding: 6px 12px;
+    }
+
+    nav a:hover {
+      background: #f4c300;
+      color: #4b0082;
+      border-radius: 6px;
+    }
+
+    section {
+      padding: 50px 15px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #4b0082;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .barcode {
+      text-align: center;
+      margin: 25px 0;
+    }
+
+    .barcode img {
+      width: 200px;
+      height: auto;
+    }
+
+    /* SERVICES GRID */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr, 1fr));
+      gap: 20px;
+      padding: 20px 0;
+    }
+
+    .service‑item {
+      border: 2px solid #4b0082;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      background: #fff;
+      transition: 0.3s ease;
+    }
+
+    .service‑item:hover {
+      transform: scale(1.05);
+      border: 2px solid #f4c300;
+    }
+
+    .service‑item img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .service‑item h3 {
+      color: #4b0082;
+      padding: 10px 0;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .service‑item a {
+      display: inline‑block;
+      background: #f4c300;
+      color: #4b0082;
+      padding: 8px 15px;
+      margin: 10px 0 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      font‑weight: 600;
+      transition: 0.2s ease;
+    }
+
+    .service‑item a:hover {
+      background: #4b0082;
+      color: #fff;
+    }
+
+    /* CONTACT FORM */
+.contact {
+  background-color: #f9f3ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin: 8px 0;
+  border: 2px solid #ffd700;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #6a0dad;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #5a009d;
+}
+```
+
+
+     footer {
+      background: #000;
+      color: #fff;
+
+    }
+    
+    .footer-p{
+        background:#f4c300;
+        text-align: center;
+        color:#4b0082;
+        padding: 20px;
+
+    }
+    @media (max-width: 600px) {
+      nav {
+        gap: 12px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <h1>Helix Best Chin Chin</h1>
+    <p>Putting  smiles on the face of your love ones</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Snacks</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Helix Best Chin Chin brings you fresh, delicious, and homemade Nigerian snacks that satisfy your heart and soul. Whether it’s for parties, chill days, or snack cravings, we deliver fast right to your doorstep!</p>
+
+    <div class="barcode">
+      <h3>Scan to Order Instantly!</h3>
+      <img src="chin_chin.jpg" alt="Scan barcode to order">
+      <p><em>Open camera → point at barcode → order instantly!</em></p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+ <h2>About Us</h2>
+    <p>Welcome to <strong>Helix Best Chin Chin</strong> — a place where traditional Nigerian snacks come alive in every bite. Our journey began with a simple passion: to share authentic, homemade snacks with our community. We take pride in using fresh ingredients, time‑tested recipes, and a whole lot of love to make each snack perfect for you.</p>
+    <p>From tasty puff puff that melts in your mouth, crunchy chin chin, spicy plantain chips, to flavorful buns and more — we’ve crafted snacks that give you joy with every bite. We are dedicated to quality, hygiene, and fast delivery to make sure your cravings are always satisfied.</p>
+    <p>Whether you’re hosting a gathering, gifting someone, or just treating yourself, Helix Best Chin Chin has something delightful for every occasion. Our goal is simple: <strong>spread smiles one snack at a time!</strong></p>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2>Our Snack Selection</h2>
+
+    <div class="services">
+
+      <div class="service‑item">
+        <img src="chin_chin.jpg" alt="Chin Chin">
+        <h3>Chin Chin</h3>
+        <a href="tel:09030154068">Order Now</a>
+      </div>
+
+      <div class="service‑item">
+        <img src="chin_chin.jpg" alt="Puff Puff">
+        <h3>Puff Puff</h3>
+        <a href="tel:09030154068">Order Now</a>
+      </div>
+
+      <div class="service‑item">
+        <img src="chin_chin.jpg" alt="Plantain Chips">
+        <h3>Plantain Chips</h3>
+        <a href="tel:09030154068">Order Now</a>
+      </div>
+
+      <div class="service‑item">
+        <img src="chin_chin.jpg" alt="Buns">
+        <h3>Fresh Buns</h3>
+        <a href="tel:09030154068">Order Now</a>
+      </div>
+
+      <div class="service‑item">
+        <img src="chin_chin.jpg" alt="Nut Snack">
+        <h3>Nut Snack</h3>
+        <a href="tel:09030154068">Order Now</a>
+      </div>
+
+      <div class="service‑item">
+        <img src="chin_chin.jpg" alt="Chin Chin 2">
+        <h3>Chin Chin (Spicy)</h3>
+        <a href="tel:09030154068">Order Now</a>
+      </div>
+
+      <div class="service‑item">
+        <img src="chin_chin.jpg" alt="Puff Puff 2">
+        <h3>Puff Puff (Sweet)</h3>
+        <a href="tel:09030154068">Order Now</a>
+      </div>
+
+      <div class="service‑item">
+        <img src="chin_chin.jpg" alt="Plantain Chips 2">
+        <h3>Sweet Plantain Chips</h3>
+        <a href="tel:09030154068">Order Now</a>
+      </div>
+
+      <div class="service‑item">
+        <img src="chin_chin.jpg" alt="Mini Snack">
+        <h3>Mini Snack Bites</h3>
+ 
+<a href="tel:09030154068">Order Now</a>
+      </div>
+
+      <div class="service‑item">
+        <img src="chin_chin.jpg" alt="Crisps">
+        <h3>Crisps Variety</h3>
+        <a href="tel:09030154068">Order Now</a>
+      </div>
+
+    </div>
+  </section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach out to us directly or fill the form below to send a message instantly!</p>
+  <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your Full Name" required>
+    <input type="email" name="email" placeholder="Your Email Address" required>
+    <input type="text" name="phone" placeholder="Your Phone Number">
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p style="margin-top:15px;">
+      📞 09030154068 <br /> 📧 lovingheleneffiong55@gmail.com
+    </p>
+</section>
+
+<footer>
+    <p class="footer-p">&copy; 2026 Helix Best Chin Chin. All rights reserved.</p>
+  </footer>
+  <script>
+      function submitForm() {
+      alert("Thanks! Your message was sent successfully 😊");
+    }
+  </script>
+</body>
+</html>
