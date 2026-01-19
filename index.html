@@ -1,282 +1,737 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF‑8">
-  <meta name="viewport" content="width=device‑width, initial‑scale=1.0">
-  <title>Helix Best Chin Chin</title>
-<link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
-  <!-- GOOGLE FONTS -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <style>
-    * {
-      box‑sizing: border-box;
-      padding: 0;
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    body {
-      background: #fff;
-      color: #333;
-    }
-
-    header {
-      background: #f4c300; 
-      padding: 30px;
-      text-align: center;
-      color: #4b0082;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-    }
-
-    nav {
-      background: #4b0082;
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-      padding: 15px 0;
-      flex-wrap: wrap;
-    }
-
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: 500;
-      font-size: 1rem;
-      padding: 6px 12px;
-    }
-
-    nav a:hover {
-      background: #f4c300;
-      color: #4b0082;
-      border-radius: 6px;
-    }
-
-    section {
-      padding: 50px 15px;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #4b0082;
-      font-size: 2rem;
-    }
-
-    p {
-      font-size: 1rem;
-      line-height: 1.6;
-    }
-
-    .barcode {
-      text-align: center;
-      margin: 25px 0;
-    }
-
-    .barcode img {
-      width: 200px;
-      height: auto;
-    }
-
-    /* SERVICES GRID */
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 20px;
-      padding: 20px 0;
-    }
-
-    .service‑item {
-      border: 2px solid #4b0082;
-      border-radius: 10px;
-      overflow: hidden;
-      text-align: center;
-      background: #fff;
-      transition: 0.3s ease;
-    }
-
-    .service‑item:hover {
-      transform: scale(1.05);
-      border: 2px solid #f4c300;
-    }
-
-    .service‑item img {
-      width: 100%;
-      height: 160px;
-      object-fit: cover;
-    }
-
-    .service‑item h3 {
-      color: #4b0082;
-      padding: 10px 0;
-      font-size: 1.1rem;
-      font-weight: 600;
-    }
-
-    .service‑item a {
-      display: inline‑block;
-      background: #f4c300;
-      color: #4b0082;
-      padding: 8px 15px;
-      margin: 10px 0 15px;
-      border-radius: 6px;
-      text-decoration: none;
-      font‑weight: 600;
-      transition: 0.2s ease;
-    }
-
-    .service‑item a:hover {
-      background: #4b0082;
-      color: #fff;
-    }
-
-    /* CONTACT FORM */
-.contact {
-  background-color: #f9f3ff;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.contact h2 {
-  color: #6a0dad;
-  margin-bottom: 20px;
-}
-
-.contact-form {
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 12px;
-  margin: 8px 0;
-  border: 2px solid #ffd700;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-.contact-form button {
-  background-color: #6a0dad;
-  color: white;
-  padding: 12px;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.contact-form button:hover {
-  background-color: #5a009d;
-}
-```
-
-
-     footer {
-      background: #000;
-      color: #fff;
-
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helix Best Chin Chin - Putting smile on the face of your love ones</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
     
-    .footer-p{
-        background:#f4c300;
-        text-align: center;
-        color:#4b0082;
-        padding: 20px;
-
-    }
-    @media (max-width: 600px) {
-      nav {
-        gap: 12px;
-      }
-      header h1 {
-        font-size: 2rem;
-      }
-    }
-  </style>
-
-</head>
-<body>
-
-  <header>
-     
- <img src="navlogo.png" alt="" width="150"/> 
-    <h1>Helix Best Chin Chin</h1>
-    <p>Putting  smiles on the face of your love ones</p>
-  </header>
-
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Snacks</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <!-- HOME -->
-  <section id="home">
-    <h2>Welcome</h2>
-    <p>Helix Best Chin Chin brings you fresh, delicious, and homemade Nigerian snacks that satisfy your heart and soul. Whether it’s for parties, chill days, or snack cravings, we deliver fast right to your doorstep!</p>
-
-    <div class="barcode">
-      <h3>Scan to Order Instantly!</h3>
-      <img src="qrcode.png" alt="Scan barcode to order">
-          <p><em>Open camera → point at barcode  or long press the barcode to dowload→ Then open camera and point at the downloaded barcode  → Order instantly!</em></p>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about">
- <h2>About Us</h2>
-    <p>Welcome to <strong>Helix Best Chin Chin</strong> — a place where traditional Nigerian snacks come alive in every bite. Our journey began with a simple passion: to share authentic, homemade snacks with our community. We take pride in using fresh ingredients, time‑tested recipes, and a whole lot of love to make each snack perfect for you.</p>
-    <p>From tasty puff puff that melts in your mouth, crunchy chin chin, spicy plantain chips, to flavorful buns and more — we’ve crafted snacks that give you joy with every bite. We are dedicated to quality, hygiene, and fast delivery to make sure your cravings are always satisfied.</p>
-    <p>Whether you’re hosting a gathering, gifting someone, or just treating yourself, Helix Best Chin Chin has something delightful for every occasion. Our goal is simple: <strong>spread smiles one snack at a time!</strong></p>
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services">
-    <h2>Our Snack Selection</h2>
-
-    <div class="services">
-
-      <div class="service‑item">
-        <img src="chin_chin.jpg" alt="Chin Chin">
-        <h3>Chin Chin</h3>
-        <a href="tel:09030154068">Order Now</a>
-      </div>
-    </div>
-          </section>
-
-<section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <p>Reach out to us directly or fill the form below to send a message instantly!</p>
-  <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
-    <input type="text" name="name" placeholder="Your Full Name" required>
-    <input type="email" name="email" placeholder="Your Email Address" required>
-    <input type="text" name="phone" placeholder="Your Phone Number">
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-  <p style="margin-top:15px;">
-      📞 09030154068 <br /> 📧 lovingheleneffiong55@gmail.com
-    </p>
-</section>
-
-<footer>
-    <p class="footer-p">&copy; 2026 Helix Best Chin Chin. All rights reserved.</p>
-  </footer>
-  <script>
-      function submitForm() {
-      alert("Thanks! Your message was sent successfully 😊");
-    }
-  </script>
-</body>
-</html>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- FONT AWESOME FOR ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #4b0082;
+            --secondary-color: #f4c300;
+            --accent-color: #8b4789;
+            --light-bg: #f8f5ff;
+            --dark-text: #333;
+            --light-text: #fff;
+            --shadow: 0 8px 25px rgba(75, 0, 130, 0.1);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background: #fff;
+            color: var(--dark-text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        /* LOADING SCREEN */
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--primary-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+        
+        .loader.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255,255,255,0.2);
+            border-radius: 50%;
+            border-top-color: var(--secondary-color);
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo-container img {
+            height: 50px;
+            border-radius: 50%;
+            transition: var(--transition);
+        }
+        
+        .logo-container img:hover {
+            transform: scale(1.05);
+        }
+        
+        header h1 {
+            color: var(--light-text);
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        
+        /* NAVIGATION */
+        nav {
+            display: flex;
+            gap: 25px;
+        }
+        
+        nav a {
+            color: var(--light-text);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            padding: 8px 15px;
+            border-radius: 30px;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        nav a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: var(--secondary-color);
+            transition: left 0.3s ease;
+            z-index: -1;
+        }
+        
+        nav a:hover::before {
+            left: 0;
+        }
+        
+        nav a:hover {
+            color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+        
+        /* MOBILE MENU TOGGLE */
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--light-text);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        /* HERO SECTION */
+        .hero {
+            margin-top: 80px;
+            padding: 100px 20px;
+            background: linear-gradient(135deg, rgba(75,0,130,0.95), rgba(244,195,0,0.95));
+            color: var(--light-text);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* FLOATING IMAGES IN HERO */
+        .floating-images {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+        }
+        
+        .floating-image {
+            position: absolute;
+            
+            opacity: 0.8;
+        }
+        
+        .floating-image:nth-child(1) {
+            width: 200px;
+            height: 200px;
+            background: url('box.png') center/cover;
+            top: 10%;
+            left: 10%;
+            animation: float 15s infinite ease-in-out;
+        }
+        
+        .floating-image:nth-child(2) {
+            width: 200px;
+            height: 200px;
+            background: url('box.png') center/cover;
+            top: 20%;
+            right: 15%;
+            animation: float 18s infinite ease-in-out 1s;
+        }
+        
+        .floating-image:nth-child(3) {
+            width: 200px;
+            height: 200px;
+            background: url('box.png') center/cover;
+            bottom: 20%;
+            left: 20%;
+            animation: float 20s infinite ease-in-out 2s;
+        }
+        
+        .floating-image:nth-child(4) {
+            width: 200px;
+            height: 200px;
+            background: url('box.png') center/cover;
+            bottom: 15%;
+            right: 10%;
+            animation: float 17s infinite ease-in-out 0.5s;
+        }
+        
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            25% {
+                transform: translateY(-20px) rotate(5deg);
+            }
+            50% {
+                transform: translateY(0) rotate(0deg);
+            }
+            75% {
+                transform: translateY(20px) rotate(-5deg);
+            }
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 25px;
+            animation: fadeInUp 1s ease;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 35px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: fadeInUp 1s ease 0.2s;
+            animation-fill-mode: both;
+            line-height: 1.8;
+        }
+        
+        .btn-primary {
+            display: inline-block;
+            background: var(--light-text);
+            color: var(--primary-color);
+            padding: 15px 35px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            animation: fadeInUp 1s ease 0.4s;
+            animation-fill-mode: both;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* SECTIONS */
+        section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        h2 {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--primary-color);
+            font-size: 2.8rem;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: var(--secondary-color);
+            border-radius: 2px;
+        }
+        
+        /* ABOUT SECTION */
+        #about {
+            background: var(--light-bg);
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        
+        .about-text {
+            animation: fadeIn 1s ease;
+        }
+        
+        .about-text p {
+            margin-bottom: 25px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .about-text strong {
+            color: var(--primary-color);
+        }
+        
+        .about-image {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            height: 400px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 1s ease 0.2s;
+            animation-fill-mode: both;
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.9;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        /* QR CODE SECTION */
+        .barcode {
+            text-align: center;
+            margin: 60px 0;
+            padding: 40px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .barcode::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(244,195,0,0.05) 0%, rgba(244,195,0,0) 70%);
+            animation: rotate 30s linear infinite;
+        }
+        
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .barcode:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(75, 0, 130, 0.15);
+        }
+        
+        .barcode h3 {
+            color: var(--primary-color);
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .barcode img {
+            width: 220px;
+            height: auto;
+            border: 5px solid var(--secondary-color);
+            border-radius: 15px;
+            padding: 15px;
+            background: white;
+            transition: var(--transition);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .barcode:hover img {
+            transform: scale(1.05);
+        }
+        
+        .barcode p {
+            margin-top: 25px;
+            color: #666;
+            font-style: italic;
+            font-size: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* SERVICES/PRODUCTS SECTION */
+        .services {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+        
+        .service-item {
+            border-radius: 20px;
+            overflow: hidden;
+            background: white;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+            max-width: 500px;
+            width: 100%;
+        }
+        
+        .service-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent, rgba(75,0,130,0.8));
+            z-index: 1;
+            opacity: 0;
+            transition: var(--transition);
+        }
+        
+        .service-item:hover::before {
+            opacity: 1;
+        }
+        
+        .service-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(75, 0, 130, 0.2);
+        }
+        
+        .service-item img {
+            width: 100%;
+            height: 400px;
+            object-fit: ;
+            transition: var(--transition);
+        }
+        
+        .service-item:hover img {
+            transform: scale(1.1);
+        }
+        
+        .service-content {
+            padding: 30px;
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+        
+        .service-item h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+        
+        .service-item p {
+            color: #666;
+            margin-bottom: 25px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        
+        .service-item a {
+            display: inline-block;
+            background: var(--secondary-color);
+            color: var(--primary-color);
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            font-size: 1.1rem;
+        }
+        
+        .service-item a:hover {
+            background: var(--primary-color);
+            color: var(--light-text);
+            transform: translateY(-2px);
+        }
+        
+        /* CONTACT FORM */
+        .contact {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: var(--light-text);
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+            padding: 60px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .contact::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 300px;
+            height: 300px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 50%;
+        }
+        
+        .contact::after {
+            content: '';
+            position: absolute;
+            bottom: -150px;
+            left: -150px;
+            width: 400px;
+            height: 400px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 50%;
+        }
+        
+        .contact h2 {
+            color: var(--light-text);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .contact p {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.2rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 18px 25px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            background: rgba(255,255,255,0.95);
+            color: var(--primary-color);
+            transition: var(--transition);
+        }
+        
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            background: white;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        
+        .contact-form button {
+            background: var(--secondary-color);
+            color: var(--primary-color);
+            padding: 18px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+            margin-top: 10px;
+        }
+        
+        .contact-form button:hover {
+            background: #f9d423;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(244,195,0,0.4);
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.1rem;
+        }
+        
+        .contact-item i {
+            font-size: 1.4rem;
+            color: var(--secondary-color);
+        }
+        
+        /* SUCCESS MESSAGE */
+        .success-message {
+            display: none;
+            background: rgba(76, 175, 80, 0.9);
+            color: white;
+            padding: 20px;
+            border-radius: 50px;
+            margin-top: 25px;
+            text-align: center;
+            animation: fadeIn 0.5s ease;
+            font-weight: 500;
+            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+        }
+        
+        /* FOOTER - CHANGED TO PURPLE */
+        footer {
+            background: var(--primary-color);
+            color: var(--light-text);
+            padding: 60px 20px 25px;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-section h3 {
+            color: var(--secondary-color);
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 12px;
+            font-size: 1.3rem;
+        }
+        
+        .footer-section h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: var(--secondary-color);
+        }
+        
+        .footer-section p, .footer-section li {
+            margin-bottom: 15px;
+            color: #e0e0ff;
+            line-height: 1.8;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li a {
+            color: #e0e0ff;
+            text-decoration: none;
+            transition: var(--transition);
+            display: inline-block;
+        }
+        
+        .footer-section ul li a:hover {
+            color: var(--secondary-color);
+            t
